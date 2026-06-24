@@ -3,7 +3,7 @@
 # 1. Justificación de Calidad de Datos
 
 En un entorno bancario, la calidad de los datos es un requisito fundamental para garantizar la confiabilidad de los análisis de fraude y la correcta toma de decisiones de negocio. Los modelos analíticos y las alertas operativas dependen directamente de la consistencia de la información procesada.
-![Transferencias Bancarias](assets/img/transferencia.jpg)
+![Transferencias Bancarias](assets/img/banca_linea.jpg)
 La eliminación de registros duplicados evita que una misma transacción sea contabilizada múltiples veces, lo que podría generar falsos positivos en los análisis de comportamiento financiero y distorsionar métricas operativas.
 
 La corrección de valores faltantes en transacciones rechazadas permite mantener la integridad semántica de los datos. Dado que una transacción rechazada no representa un movimiento financiero efectivo, asignar un monto de 0.0 estandariza el tratamiento de estos registros y evita inconsistencias posteriores.
@@ -55,4 +55,4 @@ Orquestación, monitoreo, programación y observabilidad del pipeline de datos.
 
 PostgreSQL (Supabase):
 Persistencia transaccional y soporte para consultas analíticas posteriores.
-![diagrama de flujo](assets/img/diagrama_flujo.png)
+![diagrama de flujo](assets/img/diagrama_de_flujo.png)
