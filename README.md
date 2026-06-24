@@ -55,4 +55,7 @@ Orquestación, monitoreo, programación y observabilidad del pipeline de datos.
 
 PostgreSQL (Supabase):
 Persistencia transaccional y soporte para consultas analíticas posteriores.
+
+# Diagrama de flujo de este proceso
+
 ![diagrama de flujo](assets/img/diagrama_de_flujo.png)
